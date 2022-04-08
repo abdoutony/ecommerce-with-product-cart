@@ -1,0 +1,54 @@
+.logo {
+  width: 30%;
+  color: #fff;
+  text-decoration: none;
+}
+.logo span {
+  color: #ed6c02;
+}
+
+.addToCart {
+  width: 10%;
+  text-align: right;
+}
+.navLinks {
+  display: flex;
+  justify-content: flex;
+  width: 60%;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.link:hover {
+  color: #ed6c02;
+}
+
+.cart {
+  position: relative;
+}
+.quantity-nv {
+  position: absolute;
+  top: -2px;
+  right: -7px;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  width: 15px;
+  height: 15px;
+  font-weight: 700;
+  background-color: #fff;
+  color: #ed6c02;
+  border: solid 2px #000;
+  border-radius: 50%;
+}
+
+@media (max-width: 800px) {
+  .link {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+}

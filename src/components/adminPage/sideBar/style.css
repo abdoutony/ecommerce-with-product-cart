@@ -1,0 +1,40 @@
+.sideBarContainer {
+  height: 110vh;
+  position: sticky;
+  top: 0;
+}
+.dashHeading {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.itemBox {
+  margin: 3px 7px;
+  padding: 10px;
+  transition: 0.2s;
+  text-align: left;
+  border-radius: 3px;
+}
+.itemBox:hover {
+  background-color: #011a33;
+}
+.is-active {
+  background-color: #011a33;
+}
+
+.sideLink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sideItemsContainer {
+  margin: 50px 0;
+}
+
+.logout {
+  background: none;
+  border: none;
+  font-size: 16px;
+  padding: 0;
+  cursor: pointer;
+}

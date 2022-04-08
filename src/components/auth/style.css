@@ -1,0 +1,27 @@
+.leftLoginContent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginTextHeading {
+  text-align: center;
+  font-size: 80px;
+  color: #000e1c;
+}
+.loginTextHeading span {
+  color: #ed6c02;
+}
+.loginTextHeading a {
+  color: #000e1c;
+  text-decoration: none;
+}
+
+.form-area {
+  padding: 0 50px 20px 50px;
+}
+
+.form-group {
+  width: 100%;
+  margin: 15px 0;
+}

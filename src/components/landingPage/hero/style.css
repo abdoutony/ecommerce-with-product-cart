@@ -1,0 +1,29 @@
+.heroContainer {
+  background-size: 100% 100%;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0px 50px;
+}
+
+.heroTitle {
+  font-size: 40px;
+}
+
+.heroTitle,
+.heroParagraph {
+  color: #e7e7e7;
+}
+
+.heroImg {
+  position: relative;
+  top: 5px;
+}
+
+@media (max-width: 800px) {
+  .heroTitle {
+    font-size: 20px;
+  }
+  .heroParagraph {
+    font-size: 14px;
+  }
+}
